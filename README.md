@@ -54,5 +54,31 @@
   
   - Print Fibonacci sequence upto n terms By <a href="https://github.com/mrunankpawar">Mrunank Pawar </a>
   ```
-  Mrunank's code goes here
+  public class lhd {
+
+	public static void main(String[] args) {
+		Scanner prime = new Scanner(System.in);
+		
+		System.out.println("Enter a number: ");
+		
+		int n = prime.nextInt();
+		
+		boolean isPrime = true;
+		
+		for (int i = 2; i < n; i++) {
+			
+			if (n%i == 0) {
+			isPrime = false;
+			break;
+			}
+			
+		}
+		
+		if (n < 2) isPrime = false;
+			
+		System.out.println(isPrime);
+		
+		prime.close();
+	}
+}
   ```
