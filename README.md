@@ -39,7 +39,17 @@
   
   - Program to calculate BMI of a person By <a href="https://github.com/Rishita-Nayak">Rishita Nayak </a>
   ```
-  Rishita's code goes here
+  public class lhd {
+   public static void main(String args[]) {
+      Scanner sc = new Scanner(System.in);
+      System.out.print("Input weight in kilogram: ");
+      double weight = sc.nextDouble();
+      System.out.print("\nInput height in meters: ");
+      double height = sc.nextDouble();
+      double BMI = weight / (height * height);
+      System.out.print("\nThe Body Mass Index (BMI) is " + BMI + " kg/m2");
+  		 }
+	}
   ```
   
   - Print Fibonacci sequence upto n terms By <a href="https://github.com/mrunankpawar">Mrunank Pawar </a>
